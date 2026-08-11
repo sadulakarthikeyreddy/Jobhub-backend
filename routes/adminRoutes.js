@@ -11,7 +11,7 @@ const {
     getAllApplications,
     updateApplication,
 
-} = require("../controllers/adminController");
+} = require("../controllers/admincontroller");
 
 const protect = require("../middleware/authMiddleware");
 const admin = require("../middleware/adminMiddleware");
